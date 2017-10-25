@@ -1,0 +1,44 @@
+{
+    "manifest-version": 1,
+    "name": "tlodge-trump-doomsday",
+    "version": "0.1.0",
+    "description": "testing twitter driver",
+    "author": "tlodge",
+    "licence": "MIT",
+    "databox-type": "app",
+    "tags": [
+        "twitter",
+        "tweet"
+    ],
+    "homepage": "https://github.com/tlodge/databox.tutorial-trump",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tlodge/databox.tutorial-trump.git"
+    },
+    "packages": [
+        {
+            "id": "c79ee600.c17d18",
+            "name": "new package",
+            "purpose": "to test twitter",
+            "required": false,
+            "datastores": [
+                "9a35d69d.adeb08"
+            ],
+            "benefits": "to test twitter"
+        }
+    ],
+    "allowed-combinations": [],
+    "datasources": [
+        {
+            "type": "twitterHashTagStream",
+            "required": true,
+            "name": "twitter",
+            "clientid": "9a35d69d.adeb08",
+            "granularities": []
+        }
+    ],
+    "network-permissions": [],
+    "resource-requirements": {},
+    "volumes": [],
+    "export-whitelist": []
+}
